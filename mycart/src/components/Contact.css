@@ -1,0 +1,48 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  .para {
+    font-size: 16px;
+    color: #28a745;
+    margin-top: 20px;
+    line-height: 2px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e9f7ef;  /* Light green background */
+    padding: 20px;              /* Adds padding around the text */
+    border-radius: 100%;         /* Rounds the corners */
+    border: 1px solid #28a745;  /* Adds a border matching the text color */
+  }
+  
+
+  
+  label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.7em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
